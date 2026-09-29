@@ -22,6 +22,13 @@ The lab intentionally frames results around **treated produced-water return, ben
 
 This version simulates **TDS/salinity only**. An earlier combined PFAS+salinity version exists separately; PFAS content in this file is retained only as educational/comparison text (Chemicals and Theory tabs) explaining what a fully coupled PFAS transport model would require — it is not part of the interactive simulation.
 
+**This is an idealized teaching tool, not the calibrated basin model.** Parameters here are illustrative, chosen for a clear teaching narrative — not fit to observed data.
+
+## Related tools (Pecos modeling suite)
+
+- **[Pecos Reservoir Management & Reuse Lab](https://josephauresy.github.io/pecos-reservoirs/)** — real observed flow/storage/release data (2000–2020, Red Bluff extended to 1937–2026) for the 5 major Pecos dams, plus the **[Red Bluff Reservoir Modeling Hub](https://josephauresy.github.io/pecos-reservoirs/red-bluff-reservoir-hub.html)** (data-readiness for a Delft3D-FM model of Red Bluff specifically).
+- **[Pecos Model Ledger](https://josephauresy.github.io/pre_calibration_pecos/)** — the actual SWAT+/gwflow model's calibration status: flow bias diagnostics, bug tracker, and (in its Salinity section) the real 26-year salt-transport run this teaching lab is conceptually modeled after, with its own observed-vs-simulated comparison and honestly-stated uncertainties.
+
 ## Running locally
 
 No build step. Serve the folder with any static file server, e.g.:
